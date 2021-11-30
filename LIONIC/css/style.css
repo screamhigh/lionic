@@ -53,10 +53,10 @@ html {
 
 .container {
   max-width:1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+}
+
+.flex {
+  display: flex;
 }
 
 .btn {
@@ -143,7 +143,7 @@ html {
 /* HERO */
 
 .section-hero {
-  background: url('../img/bg1.jpg') right center no-repeat white;
+  background: url('/LIONIC/img/bg1.jpg') right center no-repeat white;
   background-size: contain;
 
 }
@@ -153,9 +153,6 @@ html {
   padding-bottom: 130px;
 }
 
-.hero-content {
-  max-width: 50%;
-}
 
 .section-hero-heading {
   font-size: 40px;
@@ -212,12 +209,10 @@ html {
 }
 
 .section-do-list {
-  display: flex;
   margin-top: 50px;
    }
 
 .section-do-item {
-   flex: 1 1 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -226,9 +221,8 @@ html {
   border-radius: 5px;
 }
 
-.section-do-item:not(:last-child) {
-  margin-right: 30px;
-}
+
+
 
 .section-do-item-heading {
   margin-bottom: 18px;
@@ -272,7 +266,6 @@ html {
   flex-direction: column;
   justify-content: space-between;
   padding: 50px 35px 30px;
-  flex: 1 1 33.33%;
   border-radius: 6px;
   border: 1px solid #e4e4e4;
 }
@@ -286,9 +279,6 @@ html {
   color: #787878;
 }
 
-.section-clients-item:not(:last-child) {
-  margin-right: 30px;
-}
 
 .section-clients-user {
   display: flex;
