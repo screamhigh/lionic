@@ -143,7 +143,7 @@ html {
 /* HERO */
 
 .section-hero {
-  background: url('/LIONIC/img/bg1.jpg') right center no-repeat white;
+  background: url('../img/bg1.jpg') right center no-repeat white;
   background-size: contain;
 
 }
